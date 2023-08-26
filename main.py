@@ -16,6 +16,10 @@ def init_tasks(task):
         case '3':
             search_contact(name_input())
         case '4':
+            change_contact(name_input())
+        case '5':
+            delete_contact(name_input())
+        case '6':
             clear()
             exit()
         case _:
